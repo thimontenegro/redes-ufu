@@ -1,0 +1,22 @@
+{
+  "input_summary": "/Users/thiago.montenegro/PycharmProjects/Projetos/redes/output/6b1t/6B1T_summary.json",
+  "input_structure": "/Users/thiago.montenegro/PycharmProjects/Projetos/redes/data/6B1T.cif",
+  "n_residues": 12544,
+  "n_hexon_residues": 11959,
+  "n_penton_residues": 455,
+  "n_penton_units": 1,
+  "penton_polyhedron": {
+    "n_vertices": 1,
+    "n_faces": 0,
+    "status": "insufficient_points_for_polyhedron"
+  },
+  "hexon_classes": {
+    "status": "ok",
+    "n_classes": 2,
+    "silhouette": 0.8622669522822206
+  },
+  "community_plots": {
+    "louvain": 36,
+    "kernighan_lin": 2
+  }
+}

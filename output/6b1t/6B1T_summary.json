@@ -1,0 +1,525 @@
+{
+  "config": {
+    "structure_path": "/Users/thiago.montenegro/PycharmProjects/Projetos/redes/data/6B1T.cif",
+    "output_dir": "/Users/thiago.montenegro/PycharmProjects/Projetos/redes/output/6b1t",
+    "cutoff": 8.0,
+    "chain_mode": "any",
+    "weight_mode": "hybrid_affinity",
+    "min_affinity": 0,
+    "connect_backbone": true,
+    "weighted_metrics": false
+  },
+  "n_atoms": 100134,
+  "n_residues": 12544,
+  "n_nodes": 12544,
+  "n_edges": 66810,
+  "density": 0.0008492469578120652,
+  "degree_distribution": {
+    "2": 18,
+    "3": 21,
+    "4": 211,
+    "5": 237,
+    "6": 490,
+    "7": 678,
+    "8": 1127,
+    "9": 1299,
+    "10": 1609,
+    "11": 1755,
+    "12": 1853,
+    "13": 1465,
+    "14": 932,
+    "15": 451,
+    "16": 220,
+    "17": 126,
+    "18": 41,
+    "19": 10,
+    "20": 1
+  },
+  "louvain": {
+    "stats": {
+      "n_communities": 36,
+      "sizes": {
+        "2": 628,
+        "10": 600,
+        "11": 599,
+        "4": 597,
+        "33": 546,
+        "17": 499,
+        "30": 490,
+        "3": 483,
+        "15": 466,
+        "22": 465,
+        "29": 457,
+        "34": 429,
+        "26": 422,
+        "19": 414,
+        "31": 399,
+        "35": 384,
+        "6": 377,
+        "8": 358,
+        "27": 320,
+        "13": 311,
+        "24": 290,
+        "5": 280,
+        "18": 275,
+        "1": 271,
+        "14": 271,
+        "7": 269,
+        "32": 259,
+        "0": 241,
+        "28": 237,
+        "20": 227,
+        "12": 165,
+        "23": 155,
+        "9": 136,
+        "16": 131,
+        "21": 52,
+        "25": 41
+      }
+    },
+    "validation": {
+      "evaluated_nodes": 12544,
+      "labeled_nodes": 12414,
+      "purity": 0.9881218112244898,
+      "community_label_counts": {
+        "0": {
+          "hexon": 241
+        },
+        "1": {
+          "hexon": 266,
+          "other": 5
+        },
+        "2": {
+          "hexon": 628
+        },
+        "3": {
+          "hexon": 483
+        },
+        "4": {
+          "hexon": 544,
+          "other": 53
+        },
+        "5": {
+          "hexon": 280
+        },
+        "6": {
+          "hexon": 377
+        },
+        "7": {
+          "hexon": 269
+        },
+        "8": {
+          "hexon": 352,
+          "penton": 6
+        },
+        "9": {
+          "hexon": 123,
+          "penton": 13
+        },
+        "10": {
+          "hexon": 577,
+          "other": 23
+        },
+        "11": {
+          "hexon": 599
+        },
+        "12": {
+          "penton": 165
+        },
+        "13": {
+          "hexon": 301,
+          "other": 10
+        },
+        "14": {
+          "penton": 271
+        },
+        "15": {
+          "hexon": 432,
+          "other": 34
+        },
+        "16": {
+          "hexon": 131
+        },
+        "17": {
+          "hexon": 499
+        },
+        "18": {
+          "hexon": 275
+        },
+        "19": {
+          "hexon": 414
+        },
+        "20": {
+          "hexon": 227
+        },
+        "21": {
+          "hexon": 52
+        },
+        "22": {
+          "hexon": 465
+        },
+        "23": {
+          "hexon": 155
+        },
+        "24": {
+          "hexon": 290
+        },
+        "25": {
+          "hexon": 41
+        },
+        "26": {
+          "hexon": 422
+        },
+        "27": {
+          "hexon": 315,
+          "other": 5
+        },
+        "28": {
+          "hexon": 237
+        },
+        "29": {
+          "hexon": 457
+        },
+        "30": {
+          "hexon": 490
+        },
+        "31": {
+          "hexon": 399
+        },
+        "32": {
+          "hexon": 259
+        },
+        "33": {
+          "hexon": 546
+        },
+        "34": {
+          "hexon": 429
+        },
+        "35": {
+          "hexon": 384
+        }
+      }
+    }
+  },
+  "kernighan_lin": {
+    "stats": {
+      "n_communities": 2,
+      "sizes": {
+        "0": 6272,
+        "1": 6272
+      }
+    },
+    "community_label_counts": {
+      "0": {
+        "hexon": 5829,
+        "penton": 341,
+        "other": 102
+      },
+      "1": {
+        "hexon": 6130,
+        "penton": 114,
+        "other": 28
+      }
+    }
+  },
+  "top_central_nodes": {
+    "degree": [
+      {
+        "node": 796,
+        "score": 0.001594514868851152,
+        "residue": 839,
+        "chain": "A",
+        "residue_name": "GLY"
+      },
+      {
+        "node": 142,
+        "score": 0.0015147891254085944,
+        "residue": 173,
+        "chain": "A",
+        "residue_name": "PRO"
+      },
+      {
+        "node": 1051,
+        "score": 0.0015147891254085944,
+        "residue": 172,
+        "chain": "B",
+        "residue_name": "ALA"
+      },
+      {
+        "node": 2619,
+        "score": 0.0015147891254085944,
+        "residue": 839,
+        "chain": "C",
+        "residue_name": "GLY"
+      },
+      {
+        "node": 2868,
+        "score": 0.0015147891254085944,
+        "residue": 172,
+        "chain": "D",
+        "residue_name": "ALA"
+      },
+      {
+        "node": 3780,
+        "score": 0.0015147891254085944,
+        "residue": 173,
+        "chain": "E",
+        "residue_name": "PRO"
+      },
+      {
+        "node": 6514,
+        "score": 0.0015147891254085944,
+        "residue": 173,
+        "chain": "H",
+        "residue_name": "PRO"
+      },
+      {
+        "node": 6872,
+        "score": 0.0015147891254085944,
+        "residue": 543,
+        "chain": "H",
+        "residue_name": "LEU"
+      },
+      {
+        "node": 9604,
+        "score": 0.0015147891254085944,
+        "residue": 543,
+        "chain": "K",
+        "residue_name": "LEU"
+      },
+      {
+        "node": 10159,
+        "score": 0.0015147891254085944,
+        "residue": 173,
+        "chain": "L",
+        "residue_name": "PRO"
+      }
+    ],
+    "betweenness": [
+      {
+        "node": 2127,
+        "score": 0.05140234991652221,
+        "residue": 344,
+        "chain": "C",
+        "residue_name": "ASN"
+      },
+      {
+        "node": 9761,
+        "score": 0.04020179484875433,
+        "residue": 700,
+        "chain": "K",
+        "residue_name": "THR"
+      },
+      {
+        "node": 2121,
+        "score": 0.040130118996014576,
+        "residue": 338,
+        "chain": "C",
+        "residue_name": "TYR"
+      },
+      {
+        "node": 4292,
+        "score": 0.036648845611853866,
+        "residue": 697,
+        "chain": "E",
+        "residue_name": "PRO"
+      },
+      {
+        "node": 2529,
+        "score": 0.03648244102310694,
+        "residue": 749,
+        "chain": "C",
+        "residue_name": "VAL"
+      },
+      {
+        "node": 4295,
+        "score": 0.034766441413977105,
+        "residue": 700,
+        "chain": "E",
+        "residue_name": "THR"
+      },
+      {
+        "node": 12080,
+        "score": 0.034710758487683895,
+        "residue": 68,
+        "chain": "Q",
+        "residue_name": "ALA"
+      },
+      {
+        "node": 2118,
+        "score": 0.03259699621014981,
+        "residue": 335,
+        "chain": "C",
+        "residue_name": "GLY"
+      },
+      {
+        "node": 6115,
+        "score": 0.02876264656438986,
+        "residue": 700,
+        "chain": "G",
+        "residue_name": "THR"
+      },
+      {
+        "node": 10051,
+        "score": 0.028680911882105458,
+        "residue": 40,
+        "chain": "L",
+        "residue_name": "SER"
+      }
+    ],
+    "closeness": [
+      {
+        "node": 8886,
+        "score": 0.07029686878254096,
+        "residue": 735,
+        "chain": "J",
+        "residue_name": "ASP"
+      },
+      {
+        "node": 9639,
+        "score": 0.0698381412130222,
+        "residue": 578,
+        "chain": "K",
+        "residue_name": "SER"
+      },
+      {
+        "node": 9190,
+        "score": 0.0687875663580924,
+        "residue": 92,
+        "chain": "K",
+        "residue_name": "ARG"
+      },
+      {
+        "node": 4484,
+        "score": 0.06847587539716335,
+        "residue": 889,
+        "chain": "E",
+        "residue_name": "GLY"
+      },
+      {
+        "node": 4270,
+        "score": 0.06838179974485624,
+        "residue": 675,
+        "chain": "E",
+        "residue_name": "PHE"
+      },
+      {
+        "node": 4271,
+        "score": 0.06833634798526816,
+        "residue": 676,
+        "chain": "E",
+        "residue_name": "ARG"
+      },
+      {
+        "node": 9196,
+        "score": 0.06831550510882116,
+        "residue": 98,
+        "chain": "K",
+        "residue_name": "SER"
+      },
+      {
+        "node": 5123,
+        "score": 0.06814625665543844,
+        "residue": 618,
+        "chain": "F",
+        "residue_name": "THR"
+      },
+      {
+        "node": 8909,
+        "score": 0.06804754593738302,
+        "residue": 758,
+        "chain": "J",
+        "residue_name": "GLN"
+      },
+      {
+        "node": 4634,
+        "score": 0.06798042371916817,
+        "residue": 92,
+        "chain": "F",
+        "residue_name": "ARG"
+      }
+    ],
+    "eigenvector": [
+      {
+        "node": 796,
+        "score": 0.08907947932076499,
+        "residue": 839,
+        "chain": "A",
+        "residue_name": "GLY"
+      },
+      {
+        "node": 7422,
+        "score": 0.08589888173972486,
+        "residue": 173,
+        "chain": "I",
+        "residue_name": "PRO"
+      },
+      {
+        "node": 7169,
+        "score": 0.08352502731331284,
+        "residue": 840,
+        "chain": "H",
+        "residue_name": "GLN"
+      },
+      {
+        "node": 1052,
+        "score": 0.08137187012461046,
+        "residue": 173,
+        "chain": "B",
+        "residue_name": "PRO"
+      },
+      {
+        "node": 797,
+        "score": 0.08124789437860322,
+        "residue": 840,
+        "chain": "A",
+        "residue_name": "GLN"
+      },
+      {
+        "node": 7168,
+        "score": 0.07961853174793519,
+        "residue": 839,
+        "chain": "H",
+        "residue_name": "GLY"
+      },
+      {
+        "node": 6514,
+        "score": 0.07832498309799041,
+        "residue": 173,
+        "chain": "H",
+        "residue_name": "PRO"
+      },
+      {
+        "node": 1051,
+        "score": 0.07629255931660607,
+        "residue": 172,
+        "chain": "B",
+        "residue_name": "ALA"
+      },
+      {
+        "node": 7421,
+        "score": 0.07561477296686639,
+        "residue": 172,
+        "chain": "I",
+        "residue_name": "ALA"
+      },
+      {
+        "node": 8336,
+        "score": 0.07493159825481165,
+        "residue": 173,
+        "chain": "J",
+        "residue_name": "PRO"
+      }
+    ]
+  },
+  "entity_descriptions": {
+    "1": "Hexon protein",
+    "2": "Penton protein",
+    "3": "Pre-hexon-linking protein IIIa",
+    "4": "Pre-hexon-linking protein VIII",
+    "5": "Hexon-interlacing protein",
+    "6": "Pre-protein VI",
+    "7": "Pre-histone-like nucleoprotein",
+    "8": "Pre-protein VI"
+  }
+}

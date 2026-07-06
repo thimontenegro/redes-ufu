@@ -1,0 +1,40 @@
+{
+  "n_monomer_centroids": 60,
+  "n_penton_units": 12,
+  "penton_cluster_sizes": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "polyhedron": {
+    "n_vertices": 12,
+    "n_faces": 20,
+    "n_edges": 30,
+    "euler_v_minus_e_plus_f": 2
+  },
+  "comparison_to_icosahedron": {
+    "expected_vertices": 12,
+    "expected_faces": 20,
+    "expected_edges": 30,
+    "vertex_match": true,
+    "face_match": true,
+    "edge_match": true
+  },
+  "shape_regularities": {
+    "radius_mean": 412.93973777717423,
+    "radius_std": 7.6609149192271e-07,
+    "radius_cv": 1.8552137802108166e-09,
+    "edge_mean": 434.19053515955443,
+    "edge_std": 1.2858640801077714e-06,
+    "edge_cv": 2.9615202911603915e-09
+  }
+}

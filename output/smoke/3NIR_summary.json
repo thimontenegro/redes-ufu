@@ -1,0 +1,363 @@
+{
+  "config": {
+    "structure_path": "/Users/thiago.montenegro/PycharmProjects/Projetos/redes/data/3NIR.pdb",
+    "output_dir": "/Users/thiago.montenegro/PycharmProjects/Projetos/redes/output/smoke",
+    "cutoff": 9.0,
+    "chain_mode": "same",
+    "weight_mode": "inverse_distance",
+    "min_affinity": 0,
+    "connect_backbone": true,
+    "weighted_metrics": false
+  },
+  "n_atoms": 892,
+  "n_residues": 46,
+  "n_nodes": 46,
+  "n_edges": 271,
+  "density": 0.2618357487922705,
+  "degree_distribution": {
+    "6": 2,
+    "7": 6,
+    "8": 1,
+    "9": 3,
+    "10": 8,
+    "11": 4,
+    "12": 4,
+    "13": 3,
+    "14": 4,
+    "16": 7,
+    "17": 1,
+    "18": 1,
+    "19": 1,
+    "20": 1
+  },
+  "louvain": {
+    "stats": {
+      "n_communities": 5,
+      "sizes": {
+        "2": 11,
+        "4": 10,
+        "1": 9,
+        "0": 8,
+        "3": 8
+      }
+    },
+    "validation": {
+      "evaluated_nodes": 0,
+      "labeled_nodes": 0,
+      "purity": null,
+      "community_label_counts": {}
+    }
+  },
+  "kernighan_lin": {
+    "stats": {
+      "n_communities": 2,
+      "sizes": {
+        "0": 23,
+        "1": 23
+      }
+    },
+    "community_label_counts": {
+      "0": {
+        "hexon": 0,
+        "penton": 0,
+        "other": 23
+      },
+      "1": {
+        "hexon": 0,
+        "penton": 0,
+        "other": 23
+      }
+    }
+  },
+  "top_central_nodes": {
+    "degree": [
+      {
+        "node": 3,
+        "score": 0.4444444444444445,
+        "residue": 4,
+        "chain": "A",
+        "residue_name": "CYS"
+      },
+      {
+        "node": 31,
+        "score": 0.4222222222222222,
+        "residue": 32,
+        "chain": "A",
+        "residue_name": "CYS"
+      },
+      {
+        "node": 12,
+        "score": 0.4,
+        "residue": 13,
+        "chain": "A",
+        "residue_name": "PHE"
+      },
+      {
+        "node": 25,
+        "score": 0.37777777777777777,
+        "residue": 26,
+        "chain": "A",
+        "residue_name": "CYS"
+      },
+      {
+        "node": 2,
+        "score": 0.35555555555555557,
+        "residue": 3,
+        "chain": "A",
+        "residue_name": "CYS"
+      },
+      {
+        "node": 4,
+        "score": 0.35555555555555557,
+        "residue": 5,
+        "chain": "A",
+        "residue_name": "PRO"
+      },
+      {
+        "node": 9,
+        "score": 0.35555555555555557,
+        "residue": 10,
+        "chain": "A",
+        "residue_name": "ARG"
+      },
+      {
+        "node": 15,
+        "score": 0.35555555555555557,
+        "residue": 16,
+        "chain": "A",
+        "residue_name": "CYS"
+      },
+      {
+        "node": 26,
+        "score": 0.35555555555555557,
+        "residue": 27,
+        "chain": "A",
+        "residue_name": "ALA"
+      },
+      {
+        "node": 29,
+        "score": 0.35555555555555557,
+        "residue": 30,
+        "chain": "A",
+        "residue_name": "THR"
+      }
+    ],
+    "betweenness": [
+      {
+        "node": 3,
+        "score": 0.0909421857089845,
+        "residue": 4,
+        "chain": "A",
+        "residue_name": "CYS"
+      },
+      {
+        "node": 2,
+        "score": 0.08033187831458562,
+        "residue": 3,
+        "chain": "A",
+        "residue_name": "CYS"
+      },
+      {
+        "node": 22,
+        "score": 0.07408253756902561,
+        "residue": 23,
+        "chain": "A",
+        "residue_name": "GLU"
+      },
+      {
+        "node": 31,
+        "score": 0.06932475351773332,
+        "residue": 32,
+        "chain": "A",
+        "residue_name": "CYS"
+      },
+      {
+        "node": 12,
+        "score": 0.0683923675201464,
+        "residue": 13,
+        "chain": "A",
+        "residue_name": "PHE"
+      },
+      {
+        "node": 32,
+        "score": 0.06534189663934899,
+        "residue": 33,
+        "chain": "A",
+        "residue_name": "ILE"
+      },
+      {
+        "node": 9,
+        "score": 0.05894747283575688,
+        "residue": 10,
+        "chain": "A",
+        "residue_name": "ARG"
+      },
+      {
+        "node": 1,
+        "score": 0.055206736764580586,
+        "residue": 2,
+        "chain": "A",
+        "residue_name": "THR"
+      },
+      {
+        "node": 33,
+        "score": 0.05342431898352238,
+        "residue": 34,
+        "chain": "A",
+        "residue_name": "ILE"
+      },
+      {
+        "node": 26,
+        "score": 0.050444952137067775,
+        "residue": 27,
+        "chain": "A",
+        "residue_name": "ALA"
+      }
+    ],
+    "closeness": [
+      {
+        "node": 3,
+        "score": 0.6164383561643836,
+        "residue": 4,
+        "chain": "A",
+        "residue_name": "CYS"
+      },
+      {
+        "node": 31,
+        "score": 0.6164383561643836,
+        "residue": 32,
+        "chain": "A",
+        "residue_name": "CYS"
+      },
+      {
+        "node": 26,
+        "score": 0.5921052631578947,
+        "residue": 27,
+        "chain": "A",
+        "residue_name": "ALA"
+      },
+      {
+        "node": 32,
+        "score": 0.5769230769230769,
+        "residue": 33,
+        "chain": "A",
+        "residue_name": "ILE"
+      },
+      {
+        "node": 29,
+        "score": 0.569620253164557,
+        "residue": 30,
+        "chain": "A",
+        "residue_name": "THR"
+      },
+      {
+        "node": 2,
+        "score": 0.5625,
+        "residue": 3,
+        "chain": "A",
+        "residue_name": "CYS"
+      },
+      {
+        "node": 9,
+        "score": 0.5625,
+        "residue": 10,
+        "chain": "A",
+        "residue_name": "ARG"
+      },
+      {
+        "node": 12,
+        "score": 0.5625,
+        "residue": 13,
+        "chain": "A",
+        "residue_name": "PHE"
+      },
+      {
+        "node": 25,
+        "score": 0.5487804878048781,
+        "residue": 26,
+        "chain": "A",
+        "residue_name": "CYS"
+      },
+      {
+        "node": 4,
+        "score": 0.5421686746987951,
+        "residue": 5,
+        "chain": "A",
+        "residue_name": "PRO"
+      }
+    ],
+    "eigenvector": [
+      {
+        "node": 3,
+        "score": 0.2628360626625165,
+        "residue": 4,
+        "chain": "A",
+        "residue_name": "CYS"
+      },
+      {
+        "node": 31,
+        "score": 0.2625803209076177,
+        "residue": 32,
+        "chain": "A",
+        "residue_name": "CYS"
+      },
+      {
+        "node": 29,
+        "score": 0.22867145155782606,
+        "residue": 30,
+        "chain": "A",
+        "residue_name": "THR"
+      },
+      {
+        "node": 12,
+        "score": 0.2267340759674315,
+        "residue": 13,
+        "chain": "A",
+        "residue_name": "PHE"
+      },
+      {
+        "node": 9,
+        "score": 0.2161737754115568,
+        "residue": 10,
+        "chain": "A",
+        "residue_name": "ARG"
+      },
+      {
+        "node": 4,
+        "score": 0.21134445895914433,
+        "residue": 5,
+        "chain": "A",
+        "residue_name": "PRO"
+      },
+      {
+        "node": 26,
+        "score": 0.20917375066005786,
+        "residue": 27,
+        "chain": "A",
+        "residue_name": "ALA"
+      },
+      {
+        "node": 32,
+        "score": 0.20383036966592127,
+        "residue": 33,
+        "chain": "A",
+        "residue_name": "ILE"
+      },
+      {
+        "node": 25,
+        "score": 0.20225273500346116,
+        "residue": 26,
+        "chain": "A",
+        "residue_name": "CYS"
+      },
+      {
+        "node": 30,
+        "score": 0.20061109430404894,
+        "residue": 31,
+        "chain": "A",
+        "residue_name": "GLY"
+      }
+    ]
+  },
+  "entity_descriptions": {}
+}
